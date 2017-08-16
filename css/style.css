@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Fcraft';
-  src: url('../fonts/FCRAFT-B.ttf') format('truetype');
+  src: url('https://github.com/N8Sayer/Taxi/blob/master/fonts/FCRAFT-B.TTF') format('truetype');
 }
 
 header {
