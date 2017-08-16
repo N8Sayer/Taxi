@@ -16,8 +16,12 @@ body {
   padding: 0;
 }
 
-.embed {
-  width: 75vw;
+iframe {
+  width: 98vw;
+  height: 80vh;
+  padding-left: auto;
+  padding-right: auto;
+  margin: 0;
 }
 
 .header {
