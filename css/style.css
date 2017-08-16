@@ -3,11 +3,22 @@
   src: url('../fonts/FCRAFT-B.ttf') format('truetype');
 }
 
-body {
+header {
   /*This image can be licensed at http://www.psdgraphics.com/commercial-use/ for image http://www.psdgraphics.com/backgrounds/yellow-taxi-background/*/
   background-image: url("../images/taxi-background.jpg");
   background-size: contain;
   background-repeat: repeat-x;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.embed {
+  width: 75vw;
 }
 
 .header {
