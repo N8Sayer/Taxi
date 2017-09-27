@@ -36,3 +36,9 @@ iframe {
   top: 0;
   left: 0;
 }
+
+.g-signin2 {
+  position: absolute;
+  top: 0.9%;
+  right: 0.9%;
+}
