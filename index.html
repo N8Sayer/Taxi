@@ -21,6 +21,11 @@
     <script>
       function onSignIn(googleUser) {
          var profile = googleUser.getBasicProfile();
+         document.getElementsByClassName('g-signin2')[0].style.display = 'none';
+
+         var p = document.createElement('p');
+         p.innerHTML = profile.getEmail();
+         document.getElementsByTagName('main')[0].appendChild(p);
       }
     </script>
   </body>
